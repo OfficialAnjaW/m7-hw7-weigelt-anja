@@ -7,5 +7,5 @@ xmlhttp.onreadystatechange = function() {
 
     }
 };
-xmlhttp.open('GET', 'API URL Goes Here', true);
+xmlhttp.open('GET', 'http://api.openweathermap.org/data/2.5/weather?q=33897,us&appid=6efff70fe1477748e31c17d1c504635f', true);
 xmlhttp.send();
